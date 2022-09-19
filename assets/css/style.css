@@ -43,11 +43,6 @@ nav{
     text-align: center;
     color:black;
 }
-/* 
-.text-content{
-    text-align: center;
-    color:black;
-} */
 
 h1{
     font-size: 50px;
@@ -61,6 +56,10 @@ h1{
     display: flex;
     justify-content: space-between;
     text-align: center;
+}
+
+.bg-wave{
+    background-color: lightgray;
 }
 
 .immagine{
@@ -86,7 +85,6 @@ h1{
 }
 
 .tech{
-    background-color: forestgreen;
     padding-top: 40px;
 }
 
@@ -147,7 +145,7 @@ footer{
 }
 
 .piè{
-    border-top: 2px solid blue;
+    border-top: 5px solid blue;
     width: 80%;
     margin: auto;
     display: flex;
