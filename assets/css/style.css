@@ -9,7 +9,6 @@ header{
 }
 
 nav{
-    height: 100px;
     background-color: red;
     width: 90%;
     margin: auto;
@@ -50,9 +49,10 @@ nav{
 
 h1{
     font-size: 50px;
+    padding-top: 30px;
 }
 
-section{
+.info{
     width: 80%;
     margin: auto;
     background-color: chocolate;
@@ -75,11 +75,35 @@ section{
 }
 
 .due{
-    background-color: azure;
+    background-color:darkturquoise
 }
 
 .tre{
     background-color: cornflowerblue;
+}
+
+.tech{
+    background-color: forestgreen;
+    padding-top: 20px;
+}
+
+.tech > *{
+    width: 80%;
+    margin: auto;
+    height: 200px;
+}
+
+.sottotitolo{
+    background-color: darkorange;
+    text-align: center;
+}
+
+.saluti{
+    background-color: fuchsia;
+}
+
+.download{
+    background-color: mediumvioletred;
 }
 
 
