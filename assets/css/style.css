@@ -36,16 +36,18 @@ nav{
 
 
 .text-content{
-    width: 80%;
+    width: 70%;
     margin: auto;
     background-color: lightsalmon;
     height: 400px;
-}
-
-.text-content{
     text-align: center;
     color:black;
 }
+/* 
+.text-content{
+    text-align: center;
+    color:black;
+} */
 
 h1{
     font-size: 50px;
@@ -58,15 +60,16 @@ h1{
     background-color: chocolate;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .immagine{
-    width: 40%;
+    width: 45%;
     height: 200px;
 }
 
 .text{
-    width: 40%;
+    width: 45%;
     height: 200px;
 }
 
@@ -84,7 +87,7 @@ h1{
 
 .tech{
     background-color: forestgreen;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .tech > *{
@@ -106,4 +109,55 @@ h1{
     background-color: mediumvioletred;
 }
 
+footer{
+    background-color: darkgray;
+}
+
+.columns{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    justify-content: space-between;
+}
+
+.col{
+    width: calc(100%/5);
+}
+
+.col-1{
+    background-color: lawngreen;
+    width: 500px;
+}
+
+.col-2{
+    background-color: white;
+}
+
+.col-3{
+    background-color: magenta;
+}
+
+.col-4{
+    background-color: lightseagreen;
+}
+
+.col-5{
+    background-color: lightpink;
+}
+
+.piè{
+    border-top: 2px solid blue;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.piè > *{
+    height: 100px;
+    width: 200px;
+    background-color: maroon;
+}
 
