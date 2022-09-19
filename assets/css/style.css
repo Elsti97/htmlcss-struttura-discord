@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightgray;
+}
+
+nav{
+    height: 100px;
+    background-color: red;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.menu{
+    width: 500px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.accedi{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+
+.text-content{
+    width: 80%;
+    margin: auto;
+    background-color: lightsalmon;
+    height: 400px;
+}
+
+.text-content{
+    text-align: center;
+    color:black;
+}
+
+h1{
+    font-size: 50px;
+}
+
